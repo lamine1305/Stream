@@ -12,7 +12,6 @@ public class Main {
 		list.addAll(Arrays.asList(tab));
 		Stream s = list.stream();
 		s.forEach(System.out::print);
-
 	}
 
 }
